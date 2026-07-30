@@ -1,0 +1,20 @@
+# Kepler Communications
+
+> Kepler Communications operates a cloud-based infrastructure network in space, providing real-time connectivity, on-orbit compute, and hosted payload services for satellite and space missions. Kepler is backed by Canaan Partners, Costanoa Ventures, and Techstars. No public developer API, OpenAPI specification, or SDK has been identified; access is via the customer portal and support service desk.
+
+## Company
+- [Website](https://kepler.space): Kepler Communications company site.
+- [Customer Portal](https://portal.kepler.space/): Customer login portal for network services.
+- [Support Service Desk](https://keplercomm.atlassian.net/servicedesk/customer/user/login): Atlassian-hosted customer support portal.
+- [Contact](https://kepler.space/contact-us/): Contact Kepler Communications.
+- [Press & News](https://kepler.space/press-news/): Company news and announcements.
+- [Careers](https://kepler.space/careers/): Open roles at Kepler.
+
+## Policies
+- [Privacy Policy](https://kepler.space/index.php/privacy-policy/): Kepler privacy policy.
+- [Code of Conduct](https://kepler.space/code-of-conduct): Kepler code of conduct.
+
+## Notes
+- generated: '2026-07-19'
+- method: generated
+- source: apis.yml + kepler.space public site (no public API surface found)
