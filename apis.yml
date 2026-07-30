@@ -1,8 +1,24 @@
 aid: kepler-communications
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kepler-communications.png
 name: Kepler Communications
-description: Kepler Communications is a company surfaced as a portfolio company of canaan-partners, costanoa-ventures,
-  techstars and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting
-  the enrichment pipeline.
+description: Kepler Communications operates a cloud-based infrastructure network in space, delivering real-time
+  connectivity, on-orbit edge compute, and hosted payload services for satellite operators and space missions.
+  Its offerings include the Kepler Network for space-based data relay and communications, Kepler Compute for
+  on-orbit processing, and hosted payload services that reduce the cost and technical complexity of operating
+  in orbit. Kepler is backed by Canaan Partners, Costanoa Ventures, and Techstars. No public developer API,
+  OpenAPI specification, or SDK has been identified; services are accessed through the Kepler customer portal
+  and an Atlassian-hosted support service desk.
 url: https://raw.githubusercontent.com/api-evangelist/kepler-communications/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Satellite Communications
+- Space
+- Connectivity
+- Edge Compute
+- Infrastructure
+- IoT
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/kepler-communications-domain-security.yml
+- type: LLMsTxt
+  url: llms/kepler-communications-llms.txt
 - type: Website
   url: https://kepler.space
+- type: Portal
+  url: https://portal.kepler.space/
+- type: Support
+  url: https://keplercomm.atlassian.net/servicedesk/customer/user/login
+- type: PrivacyPolicy
+  url: https://kepler.space/index.php/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
